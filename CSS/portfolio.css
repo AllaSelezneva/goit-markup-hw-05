@@ -146,6 +146,9 @@ span {
 .site-item .site-link.current {
   color: var(--accent-color);
 }
+.site-item .site-link.current::after {
+  transform: scaleX(1);
+}
 .contact-nav {
   display: flex;
 }
