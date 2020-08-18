@@ -88,7 +88,7 @@ span {
   padding-bottom: 25px;
   margin-right: 85px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .logo:hover,
 .logo:focus {
@@ -120,7 +120,7 @@ span {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .site-link::after {
   content: "";
@@ -169,7 +169,7 @@ span {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus {
@@ -211,7 +211,8 @@ span {
 
   min-width: 73px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function);
 }
 .flex-button .item:not(:last-child) {
   margin-right: 8px;
@@ -241,8 +242,6 @@ span {
   margin-bottom: 30px;
 
   border: 1px solid #eeeeee;
-
-  transition: 250ms var(--timing-function);
 }
 .flex:nth-child(3n) {
   margin-right: 0;
@@ -271,7 +270,7 @@ span {
 
   transform: translateY(100%);
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-box:hover .box-hover {
   opacity: 0.9;
@@ -344,7 +343,7 @@ address {
 
   color: var(--primery-background-color);
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .footer-logo:hover,
 .footer-logo:focus,
@@ -368,7 +367,7 @@ address {
 
   color: var(--primary-text-color);
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .footer-contact-list {
   font-size: 14px;
@@ -407,7 +406,7 @@ address {
   background-position: center;
   border-radius: 50%;
 
-  transition: 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .net:last-child {
   margin-right: 0;

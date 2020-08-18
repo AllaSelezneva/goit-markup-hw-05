@@ -80,7 +80,7 @@ span {
   padding-bottom: 25px;
   margin-right: 85px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .logo:hover,
 .logo:focus {
@@ -112,7 +112,7 @@ span {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .site-link::after {
   content: "";
@@ -161,7 +161,7 @@ span {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus {
@@ -260,10 +260,12 @@ span {
 .section-title::before {
   content: "";
   display: block;
+
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
   border-radius: 4px;
+
+  background-color: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -395,11 +397,12 @@ span {
 
   margin-bottom: 30px;
 
-  transition: 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .social-icon-link {
   display: block;
   fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
 }
 .social-icon-item:not(:last-child) {
   margin-right: 10px;
@@ -430,7 +433,7 @@ span {
   border-radius: 4px;
   border: 1px solid #afb1b8;
 
-  transition: 250ms var(--timing-function);
+  transition: border 250ms var(--timing-function);
 }
 .clients-link {
   display: block;
@@ -438,7 +441,7 @@ span {
   padding-top: 20px;
   padding-bottom: 20px;
 
-  transition: 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 .clients-item .clients-link:hover,
 .clients-item .clients-link:focus {
@@ -483,7 +486,7 @@ address {
 
   color: var(--primery-background-color);
 
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .footer-logo:hover,
 .footer-logo:focus,
@@ -506,8 +509,7 @@ address {
   text-decoration: none;
 
   color: var(--primary-text-color);
-
-  transition: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 .footer-contact-list {
   font-size: 14px;
@@ -546,7 +548,7 @@ address {
   background-position: center;
   border-radius: 50%;
 
-  transition: 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .net:last-child {
   margin-right: 0;
